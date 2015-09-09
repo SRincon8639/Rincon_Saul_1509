@@ -19,4 +19,8 @@ alert("I have 20 firearms");
 myFirearms=prompt("Enter the number from the alert");
 fiveMoreFirearms=prompt("I have" + " " + myFirearms + " " + "now, but if I buy 5 more, I will have" + "?");
 eightLessFirearms=prompt("I have"+ " " + myFirearms + " " + "now, but if I sell 8, I will have" + "?");
-divideAllFirearms=prompt("I sold half, now I have ");
+divideAllFirearms=prompt("I sold half, now I have ");//Array
+
+var firearmsStored=[4,1,15];		//Firearms that I have inside my home in safe, 4 handguns, 1 shotgun, 15 rifles
+var total=firearmsStored[0]+firearmsStored[1]+firearmsStored[2];	//Index number so the numbers inside the [] will be added together
+console.log(total+ " "+ "firearms kept at home");					//Adds total of all firearms
