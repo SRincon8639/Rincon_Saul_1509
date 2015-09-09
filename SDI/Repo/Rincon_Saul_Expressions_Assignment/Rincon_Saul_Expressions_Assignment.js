@@ -23,4 +23,7 @@ divideAllFirearms=prompt("I sold half, now I have ");//Array
 
 var firearmsStored=[4,1,15];		//Firearms that I have inside my home in safe, 4 handguns, 1 shotgun, 15 rifles
 var total=firearmsStored[0]+firearmsStored[1]+firearmsStored[2];	//Index number so the numbers inside the [] will be added together
-console.log(total+ " "+ "firearms kept at home");					//Adds total of all firearms
+console.log(total+ " "+ "firearms kept at home");					//Adds total of all firearms//Outputs
+console.log("I have" +" "+ myFirearms + " " + "firearms but if I buy 5 more, I will have" + " " + fiveMoreFirearms+ " "+"firearms");//This output combines 20 total of firearms and adds 5 more
+console.log("I have" +" "+ myFirearms + " " + "firearms but if I sell 8, I will have" + " " + eightLessFirearms+ " " + "firearms");//This output combines 20 total firearms minus 8
+console.log("If I donate half of my" + " " + myFirearms+ " "+ "firearms, I will have" + " " + divideAllFirearms+" "+ "left");//This output shows that if I divide my total firearms in half, I will have 10
