@@ -42,3 +42,6 @@ else{
 }
 }
 
+//Ternary
+(armorerTools+toolsToBuy===toolsRequired)? console.log("Attend the training"):console.log("Get some more tools!!");// The ternary conditional will indicate if you can attend the training or if you cant
+
